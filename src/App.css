@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+  font-size: 1rem;
+  line-height: 2.15;
+  padding-left: .75em;
+  padding-right: .75em;
+  }
+  .card-registration .select-arrow {
+  top: 13px;
+  }
+  .justify-content-center {
+    justify-content: center!important;
+    background-color: #dbdbdb;
+}
+.bg-info {
+  --bs-bg-opacity: 4;
+  background-color: #b3b2cb;
+}
